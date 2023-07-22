@@ -1,0 +1,259 @@
+#nav{
+    /* border: 2px solid; */
+    height:30px;
+    width: 100%;
+    background-color: rgb(34, 34, 56);
+    /* position: fixed; */
+    background-attachment: scroll;
+}
+#nav p{
+    text-transform: capitalize;
+    font-size: 16px;
+    color:azure;
+    text-align: center;
+}
+#nav p:hover{
+    cursor: pointer;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:NeuePlak_RG;
+}
+#main1{
+    /* border: 1px solid red; */
+    height:120px;
+    /* position: fixed; */
+    background-attachment: fixed;
+     
+}
+#sub{
+    /* border:0.5px solid green; */
+    height:128px;
+    width: 100%;
+    /* position: fixed; */
+   
+}
+#im{
+    height: 20px;
+    width: 80px;;
+}
+#im img{
+    position: absolute;
+    top:82px;
+    left:64px;
+    height:32px;
+    width: 104px;
+}
+#ole{position: absolute;
+    top: 84px;
+    left:200px;
+    /* border:2px solid red; */
+    height:30px;
+    width:300px;
+    /* display: inline-flex; */
+    /* justify-content: space-between; */
+}
+#ol1{
+    display: flex; 
+    list-style: none;
+    justify-content: space-around;
+
+}
+.li{
+    font-weight: bolder;
+}
+.li:hover{
+    cursor: pointer;
+}
+#upper{
+    /* border: 2px solid; */
+    position: absolute;
+    top:44px;
+    right:30px;
+    height: 25px;
+    width:190px;
+}
+#upper ol{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+#upper ol li{
+    text-transform: capitalize;
+    font-weight: 300;
+}
+#left{
+    position: absolute;
+    /* border: 2px solid red; */
+    top:90px;
+    right:27px;
+    width: 200px;
+}
+#left ol{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+#search{
+    position: absolute;
+    height:40px;
+    /* border: 2px solid green; */
+    top:90px;
+    right:250px;
+}
+#search ol{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+#search ol li input{
+    border: none;
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#search ol li input:focus{
+    outline: none;
+}
+#search ol li+li i{
+    text-decoration: underline;
+}
+#search ol li+li i:hover{
+    cursor: pointer;
+}
+#cur{
+    height:200px;
+    width:100%;
+    /* position: fixed; */
+}
+#sky{
+    display: flex;
+    justify-content: space-around;
+}
+.ig{
+    height:400px;
+    width:610px;
+}
+#sky1{
+    height: 600px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+.h12{
+    padding-left: 25px;
+}
+#dinga{
+    /* border:3px solid red; */
+    height:250px;
+    width:50%;
+    position: absolute;
+    top:1500px;
+    right:100px;
+}
+.job{
+    height:240px;
+    width:130px;
+}
+.boot{
+    color:whitesmoke;
+    font-weight: 200;;
+}
+#new{
+    display: flex;
+    height:30px;
+    width: 240px;
+    justify-content: space-around;
+    position: absolute;
+    left:30px;
+    margin-left: 60px;
+    /* border:2px solid red; */
+}
+.a{
+    border:0.5px solid;
+    /* margin: 5px; */
+    margin-left: 80px;
+
+}
+.firsts{
+    height:400px;
+    width:310px;
+    padding-left: 10px;
+}
+.para{
+    color: black;
+    padding-left: 15px;  
+}
+.lover{
+    /* border:3px solid red;  */
+    position:absolute;
+    top:20px;
+    right:30px;
+    color:black;
+}
+#foodie{
+    height:50px;
+    width:100%;
+    background-color: #244496;
+}
+#foot{
+    height: inherit;
+    width: 70%;
+    margin: auto;
+}
+#foot ol{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#foot ol li{
+    color:#fff;
+    margin-top: 10px;
+}
+#foot ol li+li+li{
+    text-decoration: none;
+    color: aliceblue;
+}
+#foot ol li+li+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#last{
+    height:366px;
+    width:100;
+    /* border:2px solid red; */
+    background-color: beige;
+}
+#semifinal{
+    height: 300px;
+    width: 70%;
+    opacity:0.8;
+    margin:auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+#semifinal ol li{
+    list-style: none;
+}
+#nagu{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#finish{
+    margin-left: 46%;
+}
+.lisp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
